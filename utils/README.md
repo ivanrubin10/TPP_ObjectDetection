@@ -1,9 +1,10 @@
 Estos son los 3 scritps que nos sirven para preparar la información para el entrenamiento. Se ejecutan en el siguiente orden: 
 
+Paso previo, haber etiquetado las imágenes utilizando el programa labelimg.
+
 # split.py
 
-Separa las imagenes en grupo de train validation y test. se le tiene que indicar el porcentaje que se quiere asignar a train
-y validation. El resto se designa a test. 
+Separa las imagenes (y sus archivos .xml) en grupo de train validation y test. se le tiene que indicar el porcentaje que se quiere asignar a train y validation. El resto se designa a test. 
 
     # modo de uso:
 
