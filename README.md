@@ -7,4 +7,4 @@ python models/research/object_detection/model_main_tf2.py --pipeline_config_path
 
 # Convertir a .tflite (creo)
 
-python models/research/object_detection/export_tflite_graph_tf2.py --trained_checkpoint_dir {last_model_path} --output_directory {output_directory} --pipeline_config_path {pipeline_file}
+python models/research/object_detection/export_tflite_graph_tf2.py --trained_checkpoint_dir=training/ --output_directory=custom_model_lite/ --pipeline_config_path=models/mymodel/pipeline_file.config
