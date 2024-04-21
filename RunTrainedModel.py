@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 
 # Define function for inferencing with TFLite model and displaying results
 
-def tflite_detect_images(modelpath, imgpath, lblpath, min_conf=0.5, num_test_images=10, savepath='./data/labelled_images/test', txt_only=False):
+def tflite_detect_images(modelpath, imgpath, lblpath, min_conf=0.5, num_test_images=10, savepath='./data/model_results', txt_only=False):
 
     # Grab filenames of all images in test folder
     images = glob.glob(imgpath + '/*.jpg') + glob.glob(imgpath + '/*.JPG') + \
