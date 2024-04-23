@@ -1,0 +1,50 @@
+<annotation>
+	<folder>Todas las fotos</folder>
+	<filename>MODEL 3 TRAIN (29).jpg</filename>
+	<path>C:\Users\SPEC1\Desktop\IT Hiraki\WELDING CAPOT\Hiraki Welding Capot version 0\dataset\FOTOS ENTRENAMIENTO\Todas las fotos\MODEL 3 TRAIN (29).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Agujerote</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>216</xmin>
+			<ymin>781</ymin>
+			<xmax>421</xmax>
+			<ymax>981</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Agujero</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>704</xmin>
+			<ymin>534</ymin>
+			<xmax>804</xmax>
+			<ymax>636</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Agujero</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1006</xmin>
+			<ymin>155</ymin>
+			<xmax>1069</xmax>
+			<ymax>212</ymax>
+		</bndbox>
+	</object>
+</annotation>
