@@ -21,6 +21,7 @@ Separa las imagenes (y sus archivos .xml) en grupo de train validation y test. s
 # create_csv.py:
 
 Crea a partir de los archivos .xml de cada foto, una lista en .csv con la información resumida en un solo archivo
+Los crea en la carpeta data/labelled_images. Luego moverlos a data/etc
 
     # modo de uso:
 
@@ -28,7 +29,8 @@ Crea a partir de los archivos .xml de cada foto, una lista en .csv con la inform
 
     # ejemplo: 
 
-    python utils\create_csv.py images\train
+    python utils/create_csv.py data/labelled_images/train
+    python utils/create_csv.py data/labelled_images/validation
 
     #salida: 
 
