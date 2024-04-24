@@ -34,11 +34,12 @@ Los crea en la carpeta data/labelled_images. Luego moverlos a data/etc
 
     #salida: 
 
-    Archivo .csv llamado train_labels (en este caso train, si el path era images\validation sería validation_labels) dentro de la carpeta "images".
+    Archivo .csv llamado train_labels (en este caso train, si el path era images\validation sería validation_labels) dentro de la carpeta "images". 
+    Obs.: Chequear que el archivo creado tenga peso, sino hubo algún error.
 
 # create_tfrecord.py:
 
-A partir del csv, el labelmap y las imagenes; crea un archivo .tfrecord y otro archivo labelmap.pbtxt. Estos formatos son los que la red puede tomar como input.
+A partir del csv, el labelmap (.txt con etiquetas en /data/etc) y las imagenes; crea un archivo .tfrecord y otro archivo labelmap.pbtxt. Estos formatos son los que la red puede tomar como input.
 
     # modo de uso: 
 
@@ -46,5 +47,5 @@ A partir del csv, el labelmap y las imagenes; crea un archivo .tfrecord y otro a
 
     # ejemplo: 
 
-    python utils\create_tfrecord.py --csv_input=images\train_labels.csv --labelmap=labelmap.txt --image_dir=images\train --output_path=train.tfrecord
+    python utils/create_tfrecord.py --csv_input=data/etc/train_labels.csv --labelmap= data/etc/labelmap.txt --image_dir=data/labelled_images/train --output_path=data/model_input/train.tfrecord
     
