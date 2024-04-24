@@ -12,7 +12,7 @@ Separa las imagenes (y sus archivos .xml) en grupo de train validation y test. s
 
     # ejemplo:
 
-    python utils\split.py --images=images\all --train=0.75 --val=0.15
+    python utils/split.py --images=data/labelled_images/images --train=0.75 --val=0.15
 
     # salida: 
 
