@@ -6,6 +6,7 @@ import sys
 import glob
 import pandas as pd
 import xml.etree.ElementTree as ET
+import argparse
 
 def xml_to_csv(path):
     try:
@@ -34,17 +35,22 @@ def xml_to_csv(path):
 
 def main():
 
-    if len(sys.argv) != 2:
+    if len(sys.argv) != 3:
         print("Usage: python script.py <path>")
         return
 
     # Get the path argument
     pato = sys.argv[1]
+    ruta = sys.argv[2]
+
+    if not os.path.isdir(ruta):
+        print("La ruta especificada no es válida.")
+        sys.exit(1)
 
     if os.path.exists(pato) and os.path.isdir(pato):
         image_path = os.path.join(os.getcwd(), (pato))
         xml_df = xml_to_csv(image_path)
-        xml_df.to_csv((pato + '_labels.csv'), index=None)
+        xml_df.to_csv((ruta + '/' + '_labels.csv'), index=None)
         print('Successfully converted xml to csv.')
     else:
         print("Folder does not exist.")
