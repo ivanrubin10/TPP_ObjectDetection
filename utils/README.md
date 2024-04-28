@@ -47,5 +47,7 @@ A partir del csv, el labelmap (.txt con etiquetas en /data/etc) y las imagenes; 
 
     # ejemplo: 
 
-    python utils/create_tfrecord.py --csv_input=data/etc/train_labels.csv --labelmap= data/etc/labelmap.txt --image_dir=data/labelled_images/train --output_path=data/model_input/train.tfrecord
+    python utils/create_tfrecord.py --csv_input=data/etc/train_labels.csv --labelmap=data/etc/labelmap.txt --image_dir=data/labelled_images/train --output_path=data/train.tfrecord
+
+    python utils/create_tfrecord.py --csv_input=data/etc/validation_labels.csv --labelmap=data/etc/labelmap.txt --image_dir=data/labelled_images/validation --output_path=data/validation.tfrecord
     
