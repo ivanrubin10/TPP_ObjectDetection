@@ -1,0 +1,49 @@
+Calculating mAP at 0.50 IoU threshold...
+97.50% = Agujero AP
+100.00% = Agujerote AP
+mAP = 98.75%
+Calculating mAP at 0.55 IoU threshold...
+97.50% = Agujero AP
+100.00% = Agujerote AP
+mAP = 98.75%
+Calculating mAP at 0.60 IoU threshold...
+97.50% = Agujero AP
+100.00% = Agujerote AP
+mAP = 98.75%
+Calculating mAP at 0.65 IoU threshold...
+94.81% = Agujero AP
+100.00% = Agujerote AP
+mAP = 97.40%
+Calculating mAP at 0.70 IoU threshold...
+94.81% = Agujero AP
+100.00% = Agujerote AP
+mAP = 97.40%
+Calculating mAP at 0.75 IoU threshold...
+86.39% = Agujero AP
+100.00% = Agujerote AP
+mAP = 93.19%
+Calculating mAP at 0.80 IoU threshold...
+78.96% = Agujero AP
+100.00% = Agujerote AP
+mAP = 89.48%
+Calculating mAP at 0.85 IoU threshold...
+47.74% = Agujero AP
+100.00% = Agujerote AP
+mAP = 73.87%
+Calculating mAP at 0.90 IoU threshold...
+22.86% = Agujero AP
+100.00% = Agujerote AP
+mAP = 61.43%
+Calculating mAP at 0.95 IoU threshold...
+1.88% = Agujero AP
+14.36% = Agujerote AP
+mAP = 8.12%
+
+***mAP Results***
+
+Class           Average mAP @ 0.5:0.95
+---------------------------------------
+Agujero         72.00%
+Agujerote               91.44%
+
+Overall         81.72%
