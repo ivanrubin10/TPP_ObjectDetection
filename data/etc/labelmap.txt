@@ -1,2 +1,3 @@
-Agujero
-Agujerote
+grande
+mediano
+chico
