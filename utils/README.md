@@ -51,3 +51,16 @@ A partir del csv, el labelmap (.txt con etiquetas en /data/etc) y las imagenes; 
 
     python utils/create_tfrecord.py --csv_input=data/etc/validation_labels.csv --labelmap=data/etc/labelmap.txt --image_dir=data/labelled_images/validation --output_path=data/validation.tfrecord
     
+
+#  create_tflite.py
+
+A partir del saved_model (checkpoint transformado a .tflite) se crea en el output_path el .tflite para detectar
+
+    # modo de uso: 
+
+    python create_tflite.py --saved_model_path={input_path} --output_path={output_path}
+
+    # ejemplo:
+
+    
+    
