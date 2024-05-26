@@ -1,0 +1,4 @@
+amorfo
+grande
+mediano
+chico
