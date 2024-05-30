@@ -1,0 +1,38 @@
+<annotation>
+	<folder>validation</folder>
+	<filename>2024-0427-0428-26-418_type5_No0000_OK.jpg</filename>
+	<path>C:\Users\lilia\Documents\TPP\Código GIT\Aux for labeling\5-clases\dos\validation\2024-0427-0428-26-418_type5_No0000_OK.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>amorfo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>675</xmin>
+			<ymin>368</ymin>
+			<xmax>773</xmax>
+			<ymax>441</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>amorfo</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1625</xmin>
+			<ymin>1</ymin>
+			<xmax>1686</xmax>
+			<ymax>47</ymax>
+		</bndbox>
+	</object>
+</annotation>
