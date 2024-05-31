@@ -1,0 +1,60 @@
+Calculating mAP at 0.50 IoU threshold...
+96.67% = chico AP 
+100.00% = grande AP 
+100.00% = mediano AP
+mAP = 98.89%
+Calculating mAP at 0.55 IoU threshold...
+96.67% = chico AP 
+100.00% = grande AP 
+100.00% = mediano AP 
+mAP = 98.89%
+Calculating mAP at 0.60 IoU threshold...
+96.67% = chico AP 
+100.00% = grande AP 
+100.00% = mediano AP 
+mAP = 98.89%
+Calculating mAP at 0.65 IoU threshold...
+96.67% = chico AP 
+100.00% = grande AP 
+100.00% = mediano AP 
+mAP = 98.89%
+Calculating mAP at 0.70 IoU threshold...
+85.31% = chico AP 
+100.00% = grande AP 
+100.00% = mediano AP 
+mAP = 95.10%
+Calculating mAP at 0.75 IoU threshold...
+63.69% = chico AP 
+100.00% = grande AP 
+70.67% = mediano AP 
+mAP = 78.12%
+Calculating mAP at 0.80 IoU threshold...
+27.01% = chico AP 
+100.00% = grande AP 
+59.00% = mediano AP 
+mAP = 62.00%
+Calculating mAP at 0.85 IoU threshold...
+10.39% = chico AP 
+74.44% = grande AP 
+33.78% = mediano AP 
+mAP = 39.54%
+Calculating mAP at 0.90 IoU threshold...
+0.89% = chico AP 
+22.67% = grande AP 
+10.00% = mediano AP 
+mAP = 11.19%
+Calculating mAP at 0.95 IoU threshold...
+0.22% = chico AP 
+0.00% = grande AP 
+0.00% = mediano AP 
+mAP = 0.07%
+
+***mAP Results***
+
+Class           Average mAP @ 0.5:0.95
+---------------------------------------
+grande          79.71%
+mediano         67.34%
+chico           57.42%
+
+Overall         68.16%
