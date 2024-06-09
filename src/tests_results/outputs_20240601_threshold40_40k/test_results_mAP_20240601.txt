@@ -1,0 +1,70 @@
+90.00% = amorfo AP
+90.74% = chico AP
+100.00% = grande AP
+80.00% = mediano AP 
+mAP = 90.19%
+Calculating mAP at 0.55 IoU threshold...
+90.00% = amorfo AP 
+90.74% = chico AP 
+100.00% = grande AP 
+80.00% = mediano AP 
+mAP = 90.19%
+Calculating mAP at 0.60 IoU threshold...
+90.00% = amorfo AP 
+90.74% = chico AP 
+100.00% = grande AP 
+80.00% = mediano AP 
+mAP = 90.19%
+Calculating mAP at 0.65 IoU threshold...
+90.00% = amorfo AP 
+90.74% = chico AP 
+100.00% = grande AP 
+80.00% = mediano AP 
+mAP = 90.19%
+Calculating mAP at 0.70 IoU threshold...
+80.78% = amorfo AP 
+84.45% = chico AP 
+100.00% = grande AP 
+80.00% = mediano AP 
+mAP = 86.31%
+Calculating mAP at 0.75 IoU threshold...
+74.00% = amorfo AP 
+78.66% = chico AP 
+100.00% = grande AP 
+77.80% = mediano AP 
+mAP = 82.61%
+Calculating mAP at 0.80 IoU threshold...
+47.96% = amorfo AP 
+52.56% = chico AP 
+100.00% = grande AP 
+75.37% = mediano AP 
+mAP = 68.97%
+Calculating mAP at 0.85 IoU threshold...
+16.03% = amorfo AP 
+14.02% = chico AP 
+100.00% = grande AP 
+43.83% = mediano AP 
+mAP = 43.47%
+Calculating mAP at 0.90 IoU threshold...
+2.25% = amorfo AP 
+0.20% = chico AP 
+74.24% = grande AP 
+0.90% = mediano AP 
+mAP = 19.40%
+Calculating mAP at 0.95 IoU threshold...
+0.03% = amorfo AP 
+0.00% = chico AP 
+5.71% = grande AP 
+0.00% = mediano AP 
+mAP = 1.43%
+
+***mAP Results***
+
+Class           Average mAP @ 0.5:0.95
+---------------------------------------
+amorfo          58.10%
+grande          88.00%
+mediano         59.79%
+chico           59.29%
+
+Overall         66.29%
