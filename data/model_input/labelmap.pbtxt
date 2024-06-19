@@ -1,0 +1,25 @@
+item {
+  id: 1
+  name: 'amorfo'
+}
+
+item {
+  id: 2
+  name: 'grande'
+}
+
+item {
+  id: 3
+  name: 'mediano'
+}
+
+item {
+  id: 4
+  name: 'chico'
+}
+
+item {
+  id: 5
+  name: 'capo'
+}
+

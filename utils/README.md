@@ -51,6 +51,7 @@ A partir del csv, el labelmap (.txt con etiquetas en /data/etc) y las imagenes; 
 
     python utils/create_tfrecord.py --csv_input=data/etc/validation_labels.csv --labelmap=data/etc/labelmap.txt --image_dir=data/labelled_images/validation --output_path=data/validation.tfrecord
     
+    REMEMBER: el .pbtxt está dentro de TPP_ObjectDetection
 
 #  create_tflite.py
 
