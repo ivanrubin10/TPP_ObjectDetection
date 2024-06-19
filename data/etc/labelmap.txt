@@ -2,3 +2,4 @@ amorfo
 grande
 mediano
 chico
+capo
