@@ -4,6 +4,8 @@ Convierte los .xml (en carpeta ground-truth) a formato .txt (contiene los boundi
 
 Se corre desde C:\Users\lilia\Documents\TPP\Código GIT\TPP_ObjectDetection\src\tests_results\mAP
 
+Ejemplo: python .\convert_gt_xml.py 
+
 
 # calculate_map_cartucho.py
 
