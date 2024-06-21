@@ -1,0 +1,56 @@
+REMEMBER -> Cambiar nro clases
+
+#pipeline_file_original.config 
+
+data_augmentation_options {
+    random_horizontal_flip {
+    }
+  }
+  data_augmentation_options {
+    random_crop_image {
+      min_object_covered: 0.0
+      min_aspect_ratio: 0.75
+      max_aspect_ratio: 3.0
+      min_area: 0.75
+      max_area: 1.0
+      overlap_thresh: 0.0
+    }
+  }
+
+#pipeline_file_v2.config 
+
+data_augmentation_options{
+    random_adjust_brightness{
+    }
+  }
+  data_augmentation_options{
+    random_adjust_contrast{
+    }
+  }
+  data_augmentation_options{
+    random_adjust_hue{
+    }
+  }
+  data_augmentation_options{
+    random_adjust_saturation{
+    }
+  }
+
+#pipeline_file_v3.config
+
+  data_augmentation_options {
+    random_adjust_brightness {
+    }
+  }
+  data_augmentation_options {
+    random_adjust_contrast {
+    }
+  }
+  data_augmentation_options {
+    random_jitter_boxes {
+    }
+  }
+  data_augmentation_options {
+    random_adjust_saturation {
+    }
+  }
