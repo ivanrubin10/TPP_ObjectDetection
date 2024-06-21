@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>2024-0426-0514-57-928_type5_No0000_OK.jpg</filename>
+	<path>C:\Users\lilia\Documents\TPP\C&#243;digo GIT\Aux for labeling\5-clases\dos\train\2024-0426-0514-57-928_type5_No0000_OK.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>amorfo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>717</xmin>
+			<ymin>382</ymin>
+			<xmax>807</xmax>
+			<ymax>453</ymax>
+		</bndbox>
+	</object>
+	</annotation>
