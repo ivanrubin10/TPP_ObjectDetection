@@ -36,11 +36,7 @@ data_augmentation_options{
     }
   }
 
-#pipeline.config Marian
-
-Sin nada
-
-#pipeline.config Marian 2
+#pipeline.config v3
 
 data_augmentation_options{
     random_adjust_brightness{
