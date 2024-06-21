@@ -17,7 +17,7 @@ data_augmentation_options {
     }
   }
 
-#pipeline_file_v1.config 
+#pipeline_file_v2.config 
 
 data_augmentation_options{
     random_adjust_brightness{
