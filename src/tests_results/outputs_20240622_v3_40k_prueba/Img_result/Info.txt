@@ -1,0 +1,3 @@
+RESUMEN
+Cosas buenas: al otro agujero chiquitoAmorfo no lo detecta nunca como agujero y detecta bien borrosas
+Cosas malas: Detecta al guante como agujero (WTF), a veces no detecta el chiquito  y 1 vez no detectó amorfo
